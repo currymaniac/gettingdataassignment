@@ -4,7 +4,7 @@
 
 This repository contains the solution to the final assignment of the Getting and Cleaning Data course on Coursera.
 
-The assignment requires the creation of an R script (**summarised_data.txt**), which loads data collected from the accelerometers from the Samsung Galaxy S smartphone. The goal is to merge the training and test datasets (each consisting of three files which must be merged), clean the data, subset to columns that measure the mean and standard deviation of the various features. Finally a 'tidy' summarised dataset is created.
+The assignment requires the creation of an R script (**run_analysis.R**), which loads data collected from the accelerometers from the Samsung Galaxy S smartphone. The goal is to merge the training and test datasets (each consisting of three files which must be merged), clean the data, subset to columns that measure the mean and standard deviation of the various features. Finally a 'tidy' summarised dataset is created.
 
 In terms of the summary, I have interpretted this as calculating the average of each measure per person-activity pair (i.e. 180 summarisations / rows)
 
