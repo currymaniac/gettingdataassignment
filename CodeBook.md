@@ -6,6 +6,8 @@ When selecting the features, only the average (mean) and standard deviation vari
 
 See the section below for information on the features from the original data. Note that information that is not relevant has been omitted.
 
+Columns have been named in the following way: [feature].[mean|std][.X|Y|Z] where '**feature**' is one of the features below, '**mean|std**' indicates whether the measure is the mean or standard deviation and '**.X|Y|Z**' indicates whether it is an axial signal in the X, Y or Z direction. Note that not all columns have direction (see features section below).
+
 # Feature Selection 
 
 The features selected for this database come from the accelerometer and gyroscope 3.axial raw signals tAcc.XYZ and tGyro.XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc.XYZ and tGravityAcc.XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
