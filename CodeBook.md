@@ -6,7 +6,22 @@ When selecting the features, only the average (mean) and standard deviation vari
 
 See the section below for information on the features from the original data. Note that information that is not relevant has been omitted.
 
-Columns have been named in the following way: [feature].[mean|std][.X|Y|Z] where '**feature**' is one of the features below, '**mean|std**' indicates whether the measure is the mean or standard deviation and '**.X|Y|Z**' indicates whether it is an axial signal in the X, Y or Z direction. Note that not all columns have direction (see features section below).
+Columns have been named in the following way: [feature].[mean|std][.X|Y|Z] where '**feature**' is one of the features below, '**mean|std**' indicates whether the measure is the mean or standard deviation and '**.X|Y|Z**' indicates whether it is an axial signal in the X, Y or Z direction. Note that not all columns have direction (see features section below), and hence the final section within square brackets is optional.
+
+# Categorical columns
+
+There are two columns that are used to categorise the measurements:
+* Subject - the subject being measured, identified by a number; and
+* Activity - the activity being undertaken during the time the measurement was taken, identified by a descriptor.
+
+There are 30 subjects in total, and six activities. The six activities are below:
+* LAYING
+* SITTING
+* STANDING
+* WALKING
+* WALKING_DOWNSTAIRS
+* WALKING_UPSTAIRS
+\
 
 # Feature Selection 
 
